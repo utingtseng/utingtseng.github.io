@@ -1,12 +1,17 @@
 import { useState } from 'react'
 import './App.css'
-import LandingSection from './components/LandingSection'
+import LandingSection from './components/LandingSection';
+import ExperienceCards from './components/ExperienceCards';
 
 function App() {
 
   return (
     <>
-    <LandingSection/>
+    <div>
+      <ExperienceCards />
+    </div>
+    
+    {/* <LandingSection/> */}
     </>
   )
 }

@@ -1,15 +1,33 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  padding: 10%;
+  background-color: #58355e;
 }
+/* 
+html {
+  height: 100%;
+  width: 100%;
+} */
+
+body {
+  margin: 0;
+  background-color: #58355e;
+}
+
+.card {
+  width: 400px; /* Set a fixed width */
+  height: 400px; /* Set a fixed height */
+}
+
 
 .slide-show {
   width: 50%;
   height: 500px;
   background-color: bisque;
   float: left;
+}
+
+.skill-button {
+  padding: 1px;
 }
 
 .chat-box {
