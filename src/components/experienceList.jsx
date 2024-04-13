@@ -6,7 +6,7 @@ const experienceList = [
         endTime:"Present",
         description:"Software Engingeer - Full-stack role building web based apps to advance the drug discovery pipeline.",
         skills:["Python (Flask)", "Javascript (React)", "SQL (Oracle)", "Git", "Unix/Linux"],
-        secondarySkills: ["Perl", "Cheetah-template", "knock-out"],
+        secondarySkills: ["Perl", "Cheetah-template", "knockout JS", "SQLAlchemy", "Jinja template"],
         color:"fff689"
     }, {  
         id: 2,
@@ -22,7 +22,7 @@ const experienceList = [
         institution: "Imperial College London",
         startTime:"Sep 2021",
         endTime:"Jul 2022",
-        description:"MSc Bioinformatics with heavy maths and software compoenets.",
+        description:"MSc Bioinformatics with heavy maths and software components.",
         skills:["Python", "SQL (mySQL)", "Unix/Linux", "R", "Javascript"],
         secondarySkills: ["Data analysis", "Machine Learning", "Calculus", "Statistics"],
         color:"d6ffb7"

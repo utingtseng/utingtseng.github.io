@@ -6,13 +6,12 @@ import IntroBox from './components/IntroBox';
 function App() {
   const [progressCounter, setProgressCounter] = useState(0)
   const [completed, setCompleted] = useState(false);
-  const [enableConfetti, setEnableConfetti] =useState(true);
-  
   
   return (
     <div>
-      <IntroBox setCompleted={setCompleted} progressCounter={progressCounter}/>
-      <ExperienceCards progressCounter= {progressCounter} setProgressCounter={setProgressCounter}/>
+      <div className='section'><IntroBox completed={completed} setCompleted={setCompleted} progressCounter={progressCounter}/></div>
+      <div className='section'><ExperienceCards progressCounter= {progressCounter} setProgressCounter={setProgressCounter}/></div>
+
     </div>
   )
 }
