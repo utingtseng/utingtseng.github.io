@@ -22,7 +22,7 @@ const Footer = () => {
                 </Button>
                 </Col>
                 <Col md="auto" className="text-right">
-                <Button style={{ backgroundColor: "#ec0b43", borderColor: "#ec0b43"}} href="www.linkedin.com/in/yuting-tseng-05894b1b8" target="_blank">
+                <Button style={{ backgroundColor: "#ec0b43", borderColor: "#ec0b43"}} href="https://www.linkedin.com/in/yuting-tseng-05894b1b8" target="_blank">
                     <i className="bi bi-linkedin"></i>{' '}
                     <span className="footer-label">Linkedin</span>
                 </Button>
