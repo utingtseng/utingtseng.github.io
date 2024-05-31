@@ -1,3 +1,3 @@
 # An interaction game built with React 🚀
-### Accesible via utingtseng.github.io/
+### Accesible via [utingtseng.github.io/](utingtseng.github.io/)
 ### Learn more about the technologies I am familiar with!
